@@ -66,7 +66,6 @@ class DuplicateKeyCheckerPlugin
 			}
 			$leftColumns[$leftColumn] = $indexName;
 		}
-		echo "</pre>";
 
 		return $indexColumns;
 	}
